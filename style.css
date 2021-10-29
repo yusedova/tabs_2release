@@ -1,0 +1,53 @@
+h1{
+    width: 100%;
+    text-align: center;
+}
+.tabs-block-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+#tabs,
+#tabs-addl{
+    display: flex;
+}
+.tab-btn,
+.tab-btn-addl{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.tab-btn.active,
+.tab-btn-addl.active {
+    background-color: blue;
+    color: #fff;
+    /*opacity: 0.9;*/
+}
+
+
+
+#contents {
+    max-width: 300px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+}
+.content,
+.content-addl {
+    display: none;
+}
+.content.active,
+.content-addl.active {
+    display: block;
+}
+
+.inside.active{
+    background-color: rgb(199, 52, 199);
+}
